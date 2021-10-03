@@ -3,9 +3,11 @@
 function count1($array=[]){
     $i=0;
 
-    foreach($array as $v){
+    foreach($array as $item){
         $i++;
     }
+
+    unset($item);
 
     return $i;
 }
@@ -16,6 +18,8 @@ function array_sum1($array=[]){ // fait la somme d'une ligne de $array
     foreach ($array as $item) { // additionne toutes les valeurs de $array et entre le resultat dans $total
     $total+=$item;
     };
+
+    unset($item);
     
     return $total;	
 }
@@ -38,6 +42,8 @@ function array_product1($array=[]){ // fait le produit d'une ligne de $array
     foreach ($array as $item) { // multiplie toutes les valeurs de $array et entre le resultat dans $total
     $total*=$item;
     };
+
+    unset($item);
     
     return $total;
 }
@@ -48,6 +54,8 @@ function array_average($array=[]){ // fait la moyenne d'une ligne de $array
     foreach ($array as $item) { // additionne toutes les valeurs de $array et entre le resultat dans $total
     $total+=$item;
     };
+
+    unset($item);
 
     return $total/count($array); // divise $total par le nombre de valeurs de $array
 }
@@ -67,7 +75,9 @@ function array_del($array=[], $pos=0){ // supprime une case d' $array
     for($i=0 ; $i<count($array)-1 ; $i++){ //decale toutes les valeures de $array vers la gauche jusqu'a la case $pos
         ($i<$pos) ? $array[$i] : $array[$i]=$array[$i+1] ;
     }
+
     unset($array[count($array)-1]); // supprime la case restante a la fin d' $array
+    
     return $array;
 }
 
@@ -79,6 +89,7 @@ function array_sort($array=[]){ // range dans l'ordre croissant $array
             ($array[$i]>$array[$j] && $i<$j) ? $x=$array[$i] and $array[$i]=$array[$j] and $array[$j]=$x : null ;
         }
     }
+
     return $array;
 }
 
@@ -90,6 +101,7 @@ function array_rsort($array=[]){ // range dans l'ordre decroissant $array
             ($array[$i]>$array[$j]) ? $x=$array[$i] and $array[$i]=$array[$j] and $array[$j]=$x : null ;
         }
     }
+
     return $array;
 }
 
@@ -134,6 +146,7 @@ function r(){ // verifie si l'utilisateur souhaite une repetition avec controle 
     while($control!='O' && $control!='N'){ // si $controle est different de "O" et "N" redemande a l'utilisateur de rentrer une valeur correcte
         $control=readline('vous avez entre un mauvais caractere, veuillez entrer "O" ou "N" ');
     }
+
     return $control;
 }
 
@@ -168,6 +181,7 @@ function feach1d($array=[]){   // affichage $array (1 dimension)
     foreach($array as $key => $v){ // affiche toutes les valeurs de $array
         echo($key<count($array)-1) ? "|".$v : "|".$v."|" ;
     }
+
     unset($key, $v);
 
     echo("\n\n");
@@ -181,6 +195,7 @@ function feach2d($array=[]){ // affichage $array (2 dimensions)
         }
         echo("|\n");
     }
+
     unset($v, $v2);
 
     echo("\n");
@@ -197,6 +212,7 @@ function feach3d($array=[]){ // affichage $array (3 dimensions)
         }
         echo("\n");
     }
+    
     unset($v, $v2, $v3);
 }
 
