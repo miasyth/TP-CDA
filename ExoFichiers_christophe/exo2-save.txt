@@ -1,0 +1,2 @@
+id,nom,prenom,sexe,DateDeNaissance,numeroTel,mail,adresseNumero,adresseRue,adresseComplement,adresseCodePostal,adresseVille,adressePays
+000001,TOTO,Tata,h,25031925,0102030405,ghju@hot.com,2|rue||21520|TEST|Fr

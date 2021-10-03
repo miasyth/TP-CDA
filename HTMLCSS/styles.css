@@ -1,0 +1,9 @@
+
+
+div{margin-left: 3mm;}
+
+h1{text-align: center;}
+h1{color: red;}
+
+.flex{display:flex}
+.flex div{min-width:30%}

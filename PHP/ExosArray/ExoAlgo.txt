@@ -1,0 +1,100 @@
+							Exercice 1
+Ecrire un algorithme permettant de saisir 5 réelles au clavier, les stocker dans un tableau, calculer
+leur somme et les afficher avec leur somme à l’écran.
+
+
+							Exercice 2 :
+Ecrire un algorithme permettant de saisir et d’afficher N éléments d’un tableau.
+
+
+							Exercice 3 :
+Ecrire un algorithme permettant de calculer la somme, produit et moyenne des éléments d’un
+tableau.
+
+
+							Exercice 4 :
+Ecrire un algorithme permettant de consulter un élément d’un tableau.
+
+
+							Exercice 5 :
+Ecrire un algorithme permettant de chercher toutes les occurrences d’un élément dans un tableau.
+
+
+							Exercice 6 :
+Ecrire un algorithme permettant de chercher la première occurrence d’un élément dans un tableau.
+
+
+							Exercice 7 :
+Ecrire un algorithme permettant de chercher la dernière occurrence d’un élément dans un tableau.
+
+
+							Exercice 8 :
+Ecrire un algorithme permettant de calculer le nombre de fois pour lesquelles un élément apparait
+dans un tableau.
+
+
+							Exercice 9 :
+Ecrire un algorithme permettant d’ajouter un élément a la fin d’un tableau.
+
+
+							Exercice 10 :
+Ecrire un algorithme permettant de modifier un élément dans un tableau.
+
+
+							Exercice 11 :
+Ecrire un algorithme permettant d’insérer un élément dans un tableau (au début , au milieu ou à la
+fin).
+
+
+							Exercice 12 :
+Ecrire un algorithme permettant de supprimer un élément dans un tableau.
+
+
+							Exercice 13 :
+Ecrire un algorithme permettant de trier par ordre croissant les éléments d’un tableau.
+
+
+							Exercice 14 :
+Ecrire un algorithme permettant de trier par ordre décroissant les éléments d’un tableau.
+
+
+							Exercice 15 :
+Ecrire un algorithme permettant de fusionner les éléments de deux tableaux T1 et T2 dans un autre
+tableau T.
+N.B :
+N : nombre des éléments du tableau T1
+M : nombre des éléments du tableau T2
+
+
+							Exercice 16 :
+Ecrire un algorithme permettant de saisir les données d’un tableau à deux dimensions (10,4), de faire
+leur somme, produit et moyenne et de les afficher avec les résultats de calcul à l’écran.
+
+
+							Exercice 17 :
+Ecrire un algorithme qui calcule la somme des éléments de la diagonale d’une matrice carrée M(n,n)
+donnée.
+
+
+							Exercice 18 :
+Ecrire un algorithme permettant d’effectuer le produit des matrices A(n,m) et B(m,p) .
+n ,m et p données (par exemple n=4,m=5,p=3 ).
+N.B :
+Pour pouvoir faire le produit de deux matrices, il faut absolument que le nombre de colonnes
+de la première soit égal au nombre de lignes de la deuxième.
+
+
+							Exercice 19 :
+Ecrire un algorithme permettant de construire dans une matrice carrée P et d’afficher le triangle de
+PASCAL de degré N.
+N.B :
+On poura utiliser cette relation pour les éléments de triangle de PASCAL :
+Pi,j = Pi-1,j-1 + Pi-1,j
+Exemple : triangle de pascal de degré 5 :
+N=0 - 1
+N=1 - 1 1
+N=2 - 1 2 1
+N=3 - 1 3 3 1
+N=4 - 1 4 6 4 1
+N=5 - 1 5 10 10 15 1
+

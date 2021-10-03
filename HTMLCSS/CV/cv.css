@@ -1,0 +1,75 @@
+body {
+    background: #cecece;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.headline {
+    text-align: center;
+}
+
+section {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    width: 100%;
+    padding-bottom: 20px;
+    margin: 20px auto;
+    box-shadow: 0px 0px 10px #bbb;
+    background-color: rgb(231, 231, 231);
+}
+
+/*titres des sections*/
+
+section h2 {
+    margin: 20px 0;
+    width: 90%;
+    color: rgb(45, 85, 197);
+}
+
+section>div {
+    width: 90%;
+}
+
+.comp {
+    display: flex;
+    flex-flow: row wrap;
+    border-top: 1px solid #bbb;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.form {
+    display: flex;
+    flex-flow: row wrap;
+    border-top: 1px solid #bbb;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.form-content {
+    display: flex;
+    flex-flow: row wrap;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.exp {
+    display: flex;
+    flex-flow: row wrap;
+    border-top: 1px solid #bbb;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.exp-content {
+    display: flex;
+    flex-flow: row wrap;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.exp-logo {
+    flex: 0 0 25%;
+    max-width: 100px;
+}
