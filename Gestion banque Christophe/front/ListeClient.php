@@ -75,8 +75,8 @@
         <!-- Navbar -->
     </div>
     <?php
-    require_once "C:\wamp64\www\GestionBanque/services/dao/ClientDao.php";
-    require_once "C:\wamp64\www\GestionBanque/services/dto/Client.php";
+    require_once "../services/dao/ClientDao.php";
+    require_once "../services/dto/Client.php";
 
     $clientDao = new ClientDao();
     $clients = $clientDao->getAll();
