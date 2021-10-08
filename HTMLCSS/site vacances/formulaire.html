@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire</title>
+</head>
+
+<body>
+
+    <header>
+        <h1><b>Formulaire</b></h1>
+        <a href="/home.html">Home</a>
+    </header>
+
+    <form>
+        Nom <input>
+        <hr>
+        Prenom <input autofocus>
+        <hr>
+        Mail <input>
+        <hr>
+        Mot de Passe <input>
+        <hr>
+
+        <!--choix du mois (Mai par defaut)-->
+        <div id="head"> quel mois préferez vous pour le voyage ?
+            <select id='gMonth' onchange="show_month()">
+                <option value=''>--Choisissez un mois--</option>
+                <option value='1'>Janvier</option>
+                <option value='2'>Fevrier</option>
+                <option value='3'>Mars</option>
+                <option value='4'>Avril</option>
+                <option selected value='5'>Mai</option>
+                <option value='6'>Juin</option>
+                <option value='7'>Juillet</option>
+                <option value='8'>Aout</option>
+                <option value='9'>Septembre</option>
+                <option value='10'>Octobre</option>
+                <option value='11'>Novembre</option>
+                <option value='12'>Decembre</option>
+            </select>
+        </div>
+
+        <!--boite de texte-->
+        <textarea rows="9" cols="30" placeholder="Votre avis sur le site..."></textarea>
+
+        <!--selection du genre-->
+        <fieldset>
+            <legend>Genre</legend>
+            <div>
+                <input type="radio" id="Homme" name="drone" value="Homme">
+                <label for="Homme">Homme</label>
+            </div>
+
+            <div>
+                <input type="radio" id="Femme" name="drone" value="Femme">
+                <label for="Femme">Femme</label>
+            </div>
+
+            <div>
+                <input type="radio" id="Autre" name="drone" value="Autre">
+                <label for="Autre">Autre</label>
+            </div>
+        </fieldset>
+
+        <!--selection de la ville de depart-->
+        <fieldset>
+            <legend>Villes de depart souhaitées</legend>
+            <ul>
+                <li>
+                    <div>
+                        <label for="Lille">Lille</label>
+                        <input type="checkbox" id="Lille" name="drone" value="Lille">
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <label for="Paris">Paris</label>
+                        <input type="checkbox" id="Paris" name="drone" value="Paris" checked>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <label for="Bruxelles">Bruxelles</label>
+                        <input type="checkbox" id="Bruxelles" name="drone" value="Bruxelles">
+                    </div>
+                </li>
+            </ul>
+        </fieldset>
+
+    </form>
+
+
+
+</body>
+
+</html>
