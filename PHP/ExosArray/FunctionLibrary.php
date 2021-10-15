@@ -72,8 +72,8 @@ function array_insert($array=[], $number=0, $pos=0){ // insere une case dans $ar
 
 function array_del($array=[], $pos=0){ // supprime une case d' $array
     
-    for($i=0 ; $i<count($array)-1 ; $i++){ //decale toutes les valeures de $array vers la gauche jusqu'a la case $pos
-        ($i<$pos) ? $array[$i] : $array[$i]=$array[$i+1] ;
+    for($i=$pos ; $i<count($array)-1 ; $i++){ //decale toutes les valeures de $array vers la gauche jusqu'a la case $pos
+        $array[$i]=$array[$i+1] ;
     }
 
     unset($array[count($array)-1]); // supprime la case restante a la fin d' $array
